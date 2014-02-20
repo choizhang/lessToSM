@@ -1,12 +1,13 @@
 #aaa
+```js
     Alert.prototype.close = function (e) {
-        var $this    = $(this)
-        var selector = $this.attr('data-target')
-    
-        if (!selector) {
-          selector = $this.attr('href')
-          selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
-        }
+     var $this    = $(this)
+     var selector = $this.attr('data-target')
+ 
+     if (!selector) {
+       selector = $this.attr('href')
+       selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+     }
 
     var $parent = $(selector)
 
@@ -21,3 +22,9 @@
        this.interval    =
        this.$active     =
        this.$items      = null
+
+   for(var i=0; i<Array.length; i++) {}
+
+    for (i = offsets.length; i--;) {}
+
+```
